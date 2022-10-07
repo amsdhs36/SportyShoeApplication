@@ -17,7 +17,7 @@
       Last Name : <input type="text" name="lastname" ><br><br>
       Password : <input type="password" name="password" ><br><br>
      Confirm Password : <input type="text" name="confirmpassword" ><br><br>
-     Roll :<div>  <input type="radio" id="admin" name="roll" value="admin">
+     Role :<div>  <input type="radio" id="admin" name="roll" value="admin">
   <label for="admin">Admin</label><br>
   <input type="radio" id="user" name="roll" value="user">
   <label for="user">User</label> </div><br><br>

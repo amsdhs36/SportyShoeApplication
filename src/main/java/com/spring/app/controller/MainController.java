@@ -128,8 +128,7 @@ public class MainController {
 	}
 
 	@GetMapping("/bookandpaymentreturntoHome")
-	// @RequestMapping(value = "/bookandpaymentreturntoHome", method =
-	// RequestMethod.GET)
+
 	public String bookAndPaymentreturntoHomeMethod(ModelMap model, @RequestParam(name = "id") int shoeid,
 			@RequestParam String name, @RequestParam int categeory, @RequestParam double price,
 			@RequestParam String imglink, @RequestParam int quantity, @RequestParam double totalprice) {
